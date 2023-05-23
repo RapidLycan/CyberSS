@@ -13,6 +13,7 @@ import { InfoComponent } from './Components/info/info.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatIconModule } from '@angular/material/icon';
+import { WelcomeComponent } from './Components/welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { MatIconModule } from '@angular/material/icon';
     HomeComponent,
     EmployeesComponent,
     InfoComponent,
+    WelcomeComponent,
   ],
   imports: [
     BrowserModule,
