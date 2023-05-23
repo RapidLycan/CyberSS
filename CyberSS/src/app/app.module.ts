@@ -10,6 +10,9 @@ import { LandingComponent } from './Components/landing/landing.component';
 import { HomeComponent } from './Pages/home/home.component';
 import { EmployeesComponent } from './Components/employees/employees.component';
 import { InfoComponent } from './Components/info/info.component';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -19,14 +22,17 @@ import { InfoComponent } from './Components/info/info.component';
     LandingComponent,
     HomeComponent,
     EmployeesComponent,
-    InfoComponent
+    InfoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    GoogleMapsModule,
+    MatTabsModule,
+    MatIconModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
