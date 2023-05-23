@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+
+.mid {
+  display: flex;
+  flex-direction: row;
+
+  p {
+    color: #3fd3dd;
+    margin: 1rem 2rem;
+  }
+}
