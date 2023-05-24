@@ -13,6 +13,8 @@
     </div>
   </div>
   <div class="box2">
-    <google-map [center]="mapCenter" width="40rem" height="30rem"></google-map>
+    <google-map [center]="mapCenter" width="40rem" height="30rem">
+      <map-marker [position]="mapCenter"></map-marker>
+    </google-map>
   </div>
 </div>
