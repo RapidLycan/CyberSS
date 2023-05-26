@@ -15,3 +15,10 @@
     margin: 1rem 2rem;
   }
 }
+
+.icons {
+  height: 2rem;
+  margin: 0 1rem;
+  filter: invert(100%) sepia(73%) saturate(3947%) hue-rotate(132deg)
+    brightness(96%) contrast(80%);
+}
