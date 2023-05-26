@@ -1,15 +1,21 @@
-<app-landing></app-landing>
+<div class="content">
+  <app-navbar></app-navbar>
 
-<app-welcome></app-welcome>
+  <app-landing></app-landing>
 
-<app-info></app-info>
+  <app-welcome></app-welcome>
 
-<app-form></app-form>
+  <app-info></app-info>
 
-<div class="employees">
-  <mat-tab-group>
-    <mat-tab label="Management"> <app-employees></app-employees></mat-tab>
-    <mat-tab label="Economy"> <app-employees></app-employees></mat-tab>
-    <mat-tab label="Sales"> <app-employees></app-employees></mat-tab>
-  </mat-tab-group>
+  <app-form></app-form>
+
+  <div class="employees">
+    <mat-tab-group>
+      <mat-tab label="Management"> <app-employees></app-employees></mat-tab>
+      <mat-tab label="Economy"> <app-employees></app-employees></mat-tab>
+      <mat-tab label="Sales"> <app-employees></app-employees></mat-tab>
+    </mat-tab-group>
+  </div>
+
+  <app-footer></app-footer>
 </div>

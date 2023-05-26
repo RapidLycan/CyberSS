@@ -24,6 +24,7 @@ import { FormComponent } from './Components/form/form.component';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { LoadingComponent } from './Pages/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { CommonModule } from '@angular/common';
     WelcomeComponent,
     CookiesComponent,
     FormComponent,
+    LoadingComponent,
   ],
   imports: [
     BrowserModule,
