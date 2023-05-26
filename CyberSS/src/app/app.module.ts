@@ -14,6 +14,16 @@ import { GoogleMapsModule } from '@angular/google-maps';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatIconModule } from '@angular/material/icon';
 import { WelcomeComponent } from './Components/welcome/welcome.component';
+import { CookiesComponent } from './Components/cookies/cookies.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { CookieService } from 'ngx-cookie-service';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
+import { MatInputModule } from '@angular/material/input';
+import { FormComponent } from './Components/form/form.component';
+import { MatButtonModule } from '@angular/material/button';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -25,6 +35,8 @@ import { WelcomeComponent } from './Components/welcome/welcome.component';
     EmployeesComponent,
     InfoComponent,
     WelcomeComponent,
+    CookiesComponent,
+    FormComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,8 +45,15 @@ import { WelcomeComponent } from './Components/welcome/welcome.component';
     GoogleMapsModule,
     MatTabsModule,
     MatIconModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatInputModule,
+    MatButtonModule,
+    FormsModule,
+    CommonModule,
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

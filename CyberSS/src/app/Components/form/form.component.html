@@ -1,0 +1,29 @@
+<div class="content">
+  <form #myForm="ngForm">
+    <h1>Kontakt oss</h1>
+    <div class="form">
+      <div class="row">
+        <mat-form-field>
+          <mat-label>Ditt navn</mat-label>
+          <input matInput />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Avdeling</mat-label>
+          <mat-select>
+            <mat-option value="one">Brukerservice</mat-option>
+            <mat-option value="two">HR</mat-option>
+            <mat-option value="three">Ledelse</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field class="message">
+          <mat-label>Beskjed</mat-label>
+          <textarea matInput></textarea>
+        </mat-form-field>
+
+        <button mat-raised-button>Send in</button>
+      </div>
+    </div>
+  </form>
+</div>

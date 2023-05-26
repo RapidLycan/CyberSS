@@ -1,0 +1,32 @@
+.form {
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: lightgrey;
+  border-radius: 20px;
+  max-width: 40%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  mat-form-field {
+    margin: 0 2rem;
+  }
+}
+
+.message {
+  width: 25.6rem;
+}
+
+.content {
+  margin-bottom: 8rem;
+}
